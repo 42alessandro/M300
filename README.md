@@ -19,8 +19,6 @@ Abschliessend kann die VM wieder gelöscht werden:
 $ vagrant destroy -f
 
 
-[10:32] Rezek Leon Orell
-
 ---
 # Starten eines mariadb Server instanz und Status anzeigen
 ---Starten einer MariaDB instanz mit der neusten Version:
@@ -28,6 +26,7 @@ $ vagrant destroy -f
 - $ docker stop ID (kann mit docker ps angezeigt werden)DANACH, um den Container wieder zu startenMit diesemm Befehl zeigt man die aktuell gestoppten Containers an:
 - $ docker ps -aHiermit löscht man einen vorhandenen Container
 - $ docker rm (ID, kann mit docker ps angezeigt werden)---
+
 # Ports und Netzwerkstatus
 ---Hiermit exportiert man den Port einer VM:
 - $ docker run -p 80:80 -dnginxAktive Internet Status der Ports anzeigen:
@@ -36,6 +35,7 @@ $ vagrant destroy -f
 ---Hiermit erhaltet man Zugriff auf den laufendenden Container
 - $ docker exec -it ID (kann mit docker ps angezeigt werden) "BEFEHL" (BSP: "/bin/bash" Verzeichnis gehen)Verlassen der Containershell
 - $ exit---
+
 # Löschen und wiederherstellen von Container / Volumes
 ---löschen von Container:
 - $ docker rm ID (kann mit docker ps angezeigt werden)Auflisten der Volumes der erstellten Containers
@@ -43,7 +43,7 @@ $ vagrant destroy -f
 - $ docker volume create mydbstore(Name)Volumes werden auf der VM, auf der der Container läuft, lokale abgespeichert. Um den Pfad dieses Volumes auf der VM anzuzeigen hat man die Möglichkeit mit folgendem Command dies anzuschauen, beim folgendem Punkt: "Mountpoint":
 - $ docker volume inspect mydbstore(name des Volumes)
 
-[10:34] Rezek Leon Orell
+
 # Supported tags und respective Dockerfile linksSimple Tags Beispiele:20.10.16, 20.10, 20, latest, 20.10.16-alpine3.16
 20.10.16-dind, 20.10-dind, 20-dind, dind, 20.10.16-dind-alpine3.16
 20.10.16-dind-rootless, 20.10-dind-rootless, 20-dind-rootless, dind-rootless
