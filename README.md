@@ -13,6 +13,7 @@ VM erstellen und starten:
   $ vagrant up
   
 Webbrowser in der VM öffnen und prüfen, ob der Standard-Content des Webservers unter "http://10.4.32.:8080" erreichbar ist
+
 Im Ordner /web die Hauptseite index.html editieren bzw. durch eine andere ersetzen (z.B. HTML5up-Themplate) und das Resultat überprüfen
 Abschliessend kann die VM wieder gelöscht werden:
  
@@ -22,8 +23,10 @@ $ vagrant destroy -f
 ---
 # Starten eines mariadb Server instanz und Status anzeigen
 ---Starten einer MariaDB instanz mit der neusten Version:
-- $ docker run --detach --name some-mariadb --env MARIADB_USER=example-user --env MARIADB_PASSWORD=my_cool_secret --env MARIADB_ROOT_PASSWORD=my-secret-pw mariadb:latestMit diesemm Befehl zeigt man die aktuell laufenden Containers an:
-- $ docker stop ID (kann mit docker ps angezeigt werden)DANACH, um den Container wieder zu startenMit diesemm Befehl zeigt man die aktuell gestoppten Containers an:
+- $ docker run --detach --name some-mariadb --env MARIADB_USER=example-user --env MARIADB_PASSWORD=my_cool_secret --env MARIADB_ROOT_PASSWORD=my-secret-pw mariadb:latest
+- Mit diesemm Befehl zeigt man die aktuell laufenden Containers an:
+- $ docker stop ID (kann mit docker ps angezeigt werden)DANACH, um den Container wieder zu starten
+- Mit diesemm Befehl zeigt man die aktuell gestoppten Containers an:
 - $ docker ps -aHiermit löscht man einen vorhandenen Container
 - $ docker rm (ID, kann mit docker ps angezeigt werden)---
 
@@ -31,6 +34,7 @@ $ vagrant destroy -f
 ---Hiermit exportiert man den Port einer VM:
 - $ docker run -p 80:80 -dnginxAktive Internet Status der Ports anzeigen:
 - $ netstat -tulpn---
+
 # Zugriff auf Containershell
 ---Hiermit erhaltet man Zugriff auf den laufendenden Container
 - $ docker exec -it ID (kann mit docker ps angezeigt werden) "BEFEHL" (BSP: "/bin/bash" Verzeichnis gehen)Verlassen der Containershell
