@@ -111,4 +111,11 @@ Die Standardregistrierung ist Docker Hub, die sowohl "offizielle" Bilder als auc
 
 Viele Organisationen und Unternehmen hosten kommerzielle oder "private" Fotos in ihren eigenen Registern, um die mit dem Herunterladen von Bildern aus dem Internet verbundenen Kosten zu vermeiden.
 
+## Befehle
+Die Anwendung kann mit einer Reihe von Befehlen verwendet werden, die vom Docker-Client bereitgestellt werden. Daher werden wir diese Befehle in diesem Abschnitt ausführlicher untersuchen.
 
+### docker run
+- Zum Starten neuer Container ist der Befehl.
+- Der bei weitem komplexesten Befehl, er unterstützt eine lange Liste möglicher Argumente.
+- Docker run Befehl ist bei weitem einer der komplexesten Befehl, er unterstützt eine sehr lange Liste an möglicher Argumente.
+- Ermöglicht es dem Anwender, zu konfigurieren, wie das Image laufen soll, Dockerfile-Einstellungen zu überschreiben, Verbindungen zu konfigurieren und Berechtigungen  und Ressourcen für den Container zu setzen.
