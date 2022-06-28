@@ -119,3 +119,34 @@ Die Anwendung kann mit einer Reihe von Befehlen verwendet werden, die vom Docker
 - Der bei weitem komplexesten Befehl, er unterstützt eine lange Liste möglicher Argumente.
 - Docker run Befehl ist bei weitem einer der komplexesten Befehl, er unterstützt eine sehr lange Liste an möglicher Argumente.
 - Ermöglicht es dem Anwender, zu konfigurieren, wie das Image laufen soll, Dockerfile-Einstellungen zu überschreiben, Verbindungen zu konfigurieren und Berechtigungen  und Ressourcen für den Container zu setzen.
+
+#### Standard-Test:
+$ docker run hello-world
+#### Startet einen Container mit einer interaktiven Shell (interactive, tty):
+$ docker run -it ubuntu /bin/bash
+#### Startet einen Container, der im Hintergrund (detach) läuft:
+$ docker run -d ubuntu sleep 20
+#### Startet einen Container im Hintergrund und löscht (remove) diesen nach Beendigung des Jobs:
+$ docker run -d --rm ubuntu sleep 20
+#### Startet einen Container im Hintergrund und legt eine Datei an:
+$ docker run -d ubuntu touch /tmp/lock
+#### Startet einen Container im Hintergrund und gibt das ROOT-Verzeichnis (/) nach STDOUT aus:
+$ docker run -d ubuntu ls -l
+
+### docker ps
+- Gibt einen Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status.
+#### Aktive Container anzeigen:
+$ docker ps
+#### Aktive und beendete Container anzeigen (all):
+$ docker ps -a
+#### Nur IDs ausgeben (all, quit):
+$ docker ps -a -q
+
+### docker Images
+- Gibt eine Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind.
+#### Lokale Images ausgeben:
+$ docker images
+#### Alternativ auch mit ... image ls:
+$ docker image ls
+
+
