@@ -99,3 +99,10 @@ Es ist einfach, sich mit entfernten Docker-Dämonen zu verbinden und Bindungen f
 - Images können nur neu gebuildet werden und sind nicht veränderbar
 - Images bestehen aus Namen und Version (TAG), z.B. ubuntu:16.04.
 - Wird keine Version angegeben wird automatisch :latest angefügt.
+
+### Container
+- Die ausgeführten Images sind Container
+- Beliebig oft kann ein Image als Container ausgeführt werden
+- Container bzw. deren Inhalte können verändert werden, dazu werden sogenannte Union File Systems verwendet, welche nur die Änderungen zum original Image speichern.
+
+
