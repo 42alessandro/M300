@@ -83,17 +83,20 @@ Wichtig: Docker wurde für 64-bit Linux Systeme entwickelt, kann jedoch auch mit
 
 ## Architektur
 Die Hauptbestandteile von Docker sind im Folgenden aufgeführt:
-Docker Deamon
+### Docker Deamon
 - Ausführen und Überwachen der Container, Erstellen
 - Speichern und Bauen
 Das Host-Betriebssystem startet normalerweise den Docker-Daemon.
-Docker Client
+### Docker Client
 - Mittels des Docker Clients wird  Docker über die Kommandozeile (CLI) bedient
 - Kommuniziert per HTTP REST mit dem Docker Daemon
 - Mit dem Docker Daemon kommuniziert der Docker Client per HTTP Rest
 
 Es ist einfach, sich mit entfernten Docker-Dämonen zu verbinden und Bindungen für Programmiersprachen zu erstellen, da die gesamte Kommunikation über HTTP erfolgt.
 
+###Images
+- Gebuildete Images sind Umgebungen, welche als Container gestartet werden können
+- Images sind nicht veränderbar, sondern können nur neu gebuildet werden.
 
-
-
+- Images bestehen aus Namen und Version (TAG), z.B. ubuntu:16.04.
+--Wird keine Version angegeben wird automatisch :latest angefügt.
