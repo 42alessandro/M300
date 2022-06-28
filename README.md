@@ -81,6 +81,13 @@ Administratoren können sich auf Netzwerke, Ressourcen und Zeit konzentrieren un
 Um eine umfassende Lösung für die Erstellung und Verteilung von Containern zu entwickeln, hat Docker die bereits vorhandene Linux-Container-Technologie aufgegriffen und sie auf zahlreiche Arten verpackt und erweitert, vor allem durch portable Images und eine benutzerfreundliche Oberfläche. Die Docker-Plattform besteht aus zwei verschiedenen Teilen: dem Docker Hub, einem Cloud-Dienst zur gemeinsamen Nutzung von Container-Images, und der Docker Engine, die für die Erstellung und Ausführung von Containern zuständig ist.
 Wichtig: Docker wurde für 64-bit Linux Systeme entwickelt, kann jedoch auch mittels VirtualBox auf Mac und Windows betrieben werden.
 
+## Architektur
+Die Hauptbestandteile von Docker sind im Folgenden aufgeführt:
+Docker Deamon
+- Ausführen und Überwachen der Container, Erstellen
+- Speichern und Bauen
+
+
 
 
 
