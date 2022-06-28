@@ -98,4 +98,4 @@ Es ist einfach, sich mit entfernten Docker-Dämonen zu verbinden und Bindungen f
 - Gebuildete Images sind Umgebungen, welche als Container gestartet werden können
 - Images können nur neu gebuildet werden und sind nicht veränderbar
 - Images bestehen aus Namen und Version (TAG), z.B. ubuntu:16.04.
--- Wird keine Version angegeben wird automatisch :latest angefügt.
+- Wird keine Version angegeben wird automatisch :latest angefügt.
