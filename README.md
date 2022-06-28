@@ -86,7 +86,11 @@ Die Hauptbestandteile von Docker sind im Folgenden aufgeführt:
 Docker Deamon
 - Ausführen und Überwachen der Container, Erstellen
 - Speichern und Bauen
-
+Das Host-Betriebssystem startet normalerweise den Docker-Daemon.
+Docker Client
+- Mittels des Docker Clients wird  Docker über die Kommandozeile (CLI) bedient
+- Kommuniziert per HTTP REST mit dem Docker Daemon
+- Mit dem Docker Daemon kommuniziert der Docker Client per HTTP Rest
 
 
 
