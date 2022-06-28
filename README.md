@@ -91,6 +91,7 @@ Docker Client
 - Mittels des Docker Clients wird  Docker über die Kommandozeile (CLI) bedient
 - Kommuniziert per HTTP REST mit dem Docker Daemon
 - Mit dem Docker Daemon kommuniziert der Docker Client per HTTP Rest
+
 Es ist einfach, sich mit entfernten Docker-Dämonen zu verbinden und Bindungen für Programmiersprachen zu erstellen, da die gesamte Kommunikation über HTTP erfolgt.
 
 
