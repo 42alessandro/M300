@@ -76,5 +76,10 @@ Administratoren können sich auf Netzwerke, Ressourcen und Zeit konzentrieren un
 - Container sind portierbar --> Fertig mit "Aber bei mir auf dem Rechner lief es doch!"
 - Container sind leichtgewichtig, d.h. es können dutzende parallel betrieben werden.
 - Container sind "Cloud-ready"!
+# Docker
+
+Um eine umfassende Lösung für die Erstellung und Verteilung von Containern zu entwickeln, hat Docker die bereits vorhandene Linux-Container-Technologie aufgegriffen und sie auf zahlreiche Arten verpackt und erweitert, vor allem durch portable Images und eine benutzerfreundliche Oberfläche. Die Docker-Plattform besteht aus zwei verschiedenen Teilen: dem Docker Hub, einem Cloud-Dienst zur gemeinsamen Nutzung von Container-Images, und der Docker Engine, die für die Erstellung und Ausführung von Containern zuständig ist.
+
+
 
 
