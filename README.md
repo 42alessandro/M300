@@ -6,24 +6,24 @@ Nachfolgend wird die VM mit einem bereits abgeänderten File bzw. VM aus dem M30
 Terminal (Bash) öffnen
 In das M300-Verzeichnis (/M300/vagrant/web) wechseln:
 
-  $ cd Pfad/zum-M300-Verzeichnis/vagrant/web
+    $ cd Pfad/zum-M300-Verzeichnis/vagrant/web
   
 VM erstellen und starten:
 
-  $ vagrant up
+    $ vagrant up
   
 Webbrowser in der VM öffnen und prüfen, ob der Standard-Content des Webservers unter "http://10.4.32.:8080" erreichbar ist
 
 Im Ordner /web die Hauptseite index.html editieren bzw. durch eine andere ersetzen (z.B. HTML5up-Themplate) und das Resultat überprüfen
 Abschliessend kann die VM wieder gelöscht werden:
  
-$ vagrant destroy -f
+    $ vagrant destroy -f
 
 
 ---
 # Starten eines mariadb Server instanz und Status anzeigen
 ---Starten einer MariaDB instanz mit der neusten Version:
-- $ docker run --detach --name some-mariadb --env MARIADB_USER=example-user --env MARIADB_PASSWORD=my_cool_secret --env MARIADB_ROOT_PASSWORD=my-secret-pw mariadb:latest
+-$ docker run --detach --name some-mariadb --env MARIADB_USER=example-user --env MARIADB_PASSWORD=my_cool_secret --env MARIADB_ROOT_PASSWORD=my-secret-pw mariadb:latest
 - Mit diesemm Befehl zeigt man die aktuell laufenden Containers an:
 - $ docker stop ID (kann mit docker ps angezeigt werden)DANACH, um den Container wieder zu starten
 - Mit diesemm Befehl zeigt man die aktuell gestoppten Containers an:
@@ -121,32 +121,32 @@ Die Anwendung kann mit einer Reihe von Befehlen verwendet werden, die vom Docker
 - Ermöglicht es dem Anwender, zu konfigurieren, wie das Image laufen soll, Dockerfile-Einstellungen zu überschreiben, Verbindungen zu konfigurieren und Berechtigungen  und Ressourcen für den Container zu setzen.
 
 #### Standard-Test:
-$ docker run hello-world
+    $ docker run hello-world
 #### Startet einen Container mit einer interaktiven Shell (interactive, tty):
-$ docker run -it ubuntu /bin/bash
+    $ docker run -it ubuntu /bin/bash
 #### Startet einen Container, der im Hintergrund (detach) läuft:
-$ docker run -d ubuntu sleep 20
+    $ docker run -d ubuntu sleep 20
 #### Startet einen Container im Hintergrund und löscht (remove) diesen nach Beendigung des Jobs:
-$ docker run -d --rm ubuntu sleep 20
+    $ docker run -d --rm ubuntu sleep 20
 #### Startet einen Container im Hintergrund und legt eine Datei an:
-$ docker run -d ubuntu touch /tmp/lock
+      $ docker run -d ubuntu touch /tmp/lock
 #### Startet einen Container im Hintergrund und gibt das ROOT-Verzeichnis (/) nach STDOUT aus:
-$ docker run -d ubuntu ls -l
+    $ docker run -d ubuntu ls -l
 
 ### docker ps
 - Gibt einen Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status.
 #### Aktive Container anzeigen:
-$ docker ps
+    $ docker ps
 #### Aktive und beendete Container anzeigen (all):
-$ docker ps -a
+    $ docker ps -a
 #### Nur IDs ausgeben (all, quit):
-$ docker ps -a -q
+    $ docker ps -a -q
 
 ### docker Images
 - Gibt eine Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind.
 #### Lokale Images ausgeben:
-$ docker images
+     $ docker images
 #### Alternativ auch mit ... image ls:
-$ docker image ls
+    $ docker image ls
 
 
