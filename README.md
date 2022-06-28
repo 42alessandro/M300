@@ -63,12 +63,12 @@ Docker bietet eine eingebaute Versionsverwaltung. Diese erlaubt es, den aktuelle
 - $ docker image history (ID, kann mit docker image ls angezeigt werden)Mit diesem Befehl kann man das Imagefile inspizieren:
 - $ docker image inspect (ID, kann mit docker image ls angezeigt werden)
 
-#Container
+# Container
 Container verändern im Wesentlichen die Art und Weise, wie wir Pakete entwickeln, bereitstellen und ausführen.
 Entwickler werden Pakete im eigenen Land erstellen, die mit dem gleichen Ansatz an anderen Orten ausgeführt werden können - egal ob es sich um ein Rack in der IT-Abteilung, den tragbaren Computer eines Benutzers oder einen Cluster in der Cloud handelt.
 Administratoren können sich auf Netzwerke, Ressourcen und Zeit konzentrieren und müssen weniger Zeit für die Konfiguration von Umgebungen und die Bekämpfung von Systemabhängigkeiten aufwenden.
 
-##Merkmale
+## Merkmale
 
 
 
