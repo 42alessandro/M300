@@ -107,5 +107,8 @@ Es ist einfach, sich mit entfernten Docker-Dämonen zu verbinden und Bindungen f
 
 ### Docker Registry
 - Images werden in Docker Registries abgelegt und verteilt
+Die Standardregistrierung ist Docker Hub, die sowohl "offizielle" Bilder als auch Tausende von öffentlich zugänglichen Bildern bietet.
+
+Viele Organisationen und Unternehmen hosten kommerzielle oder "private" Fotos in ihren eigenen Registern, um die mit dem Herunterladen von Bildern aus dem Internet verbundenen Kosten zu vermeiden.
 
 
