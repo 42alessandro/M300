@@ -68,6 +68,7 @@ Container verändern im Wesentlichen die Art und Weise, wie wir Pakete entwickel
 Entwickler werden Pakete im eigenen Land erstellen, die mit dem gleichen Ansatz an anderen Orten ausgeführt werden können - egal ob es sich um ein Rack in der IT-Abteilung, den tragbaren Computer eines Benutzers oder einen Cluster in der Cloud handelt.
 Administratoren können sich auf Netzwerke, Ressourcen und Zeit konzentrieren und müssen weniger Zeit für die Konfiguration von Umgebungen und die Bekämpfung von Systemabhängigkeiten aufwenden.
 
+##Merkmale
 
 
 
