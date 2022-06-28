@@ -94,9 +94,8 @@ Das Host-Betriebssystem startet normalerweise den Docker-Daemon.
 
 Es ist einfach, sich mit entfernten Docker-Dämonen zu verbinden und Bindungen für Programmiersprachen zu erstellen, da die gesamte Kommunikation über HTTP erfolgt.
 
-###Images
+### Images
 - Gebuildete Images sind Umgebungen, welche als Container gestartet werden können
-- Images sind nicht veränderbar, sondern können nur neu gebuildet werden.
-
+- Images können nur neu gebuildet werden und sind nicht veränderbar
 - Images bestehen aus Namen und Version (TAG), z.B. ubuntu:16.04.
 --Wird keine Version angegeben wird automatisch :latest angefügt.
