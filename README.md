@@ -105,4 +105,7 @@ Es ist einfach, sich mit entfernten Docker-Dämonen zu verbinden und Bindungen f
 - Beliebig oft kann ein Image als Container ausgeführt werden
 - Container bzw. deren Inhalte können verändert werden, dazu werden sogenannte Union File Systems verwendet, welche nur die Änderungen zum original Image speichern.
 
+### Docker Registry
+- Images werden in Docker Registries abgelegt und verteilt
+
 
